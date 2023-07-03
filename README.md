@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio repository! This repository showcases my skills as a passionate web developer, highlighting my expertise in creating immersive digital experiences and solving real-world problems through technology.
+Welcome to my portfolio repository!
 
 # About
 
