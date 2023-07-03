@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            font-size: 20px;
+            margin: 0;
+            background-image: url("img3.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #fff;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;  
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 10px;
+        }
+
+        .navigation ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navigation li {
+            margin: 0 10px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-image: url("profile.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-right: 20px;
+        }
+
+        .welcome-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="https://drive.google.com/file/d/15cLE3hMRgt9Do1G72Sn2n-rUQF3nWEkO/view?usp=sharing">Resume</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Added the profile photo and welcome section here -->
+    <section class="welcome-section">
+        <div class="profile-photo"></div>
+        <h1>WELCOME TO SOWKYA KADAM PORTFOLIO</h1>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate individual driven by a love for technology and a strong desire to make a positive impact. My goal is to utilize technology to solve real-world problems and contribute to society.</p>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
