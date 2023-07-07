@@ -8,7 +8,7 @@ In this portfolio, you will find information about me, my experience, projects, 
 
 # Projects
 
-Explore the projects section to see some of the exciting projects I have worked on. These projects demonstrate my technical proficiency and creativity in leveraging technologies such as Python, HTML, CSS, and JavaScript to build innovative solutions.
+Explore the projects section to see some of the exciting projects I have worked on. These projects demonstrate my technical proficiency and creativity in leveraging technologies such as Python, HTML and CSS to build innovative solutions.
 
 # Skills
 
